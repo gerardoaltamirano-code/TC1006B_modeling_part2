@@ -122,7 +122,7 @@ The `bar` function accepts the following optional arguments:
 
 `width=900` and `height=600` control the dimensions of the chart.
 
-`template="plotly_dark"` changes the visual theme.
+`template="plotly_dark"` applies a visual theme. Available options include `'ggplot2'`, `'seaborn'`, `'simple_white'`, `'plotly'`, `'plotly_white'`, `'plotly_dark'`, `'presentation'`, `'xgridoff'`, `'ygridoff'`, `'gridon'`, and `'none'`.
 
 
 Use the following instruction to change the order of the bars:
@@ -213,7 +213,7 @@ The `bar` function accepts the following optional arguments:
 
 `range_y=[0,rank_category_audience["weekly_views"].max() * 1.1]` fixes the vertical scale for the animation.
 
-`template="plotly_dark"` changes the visual theme.
+`template="plotly_dark"` applies a visual theme. Available options include `'ggplot2'`, `'seaborn'`, `'simple_white'`, `'plotly'`, `'plotly_white'`, `'plotly_dark'`, `'presentation'`, `'xgridoff'`, `'ygridoff'`, `'gridon'`, and `'none'`.
 
 Use the following command to display every rank from 1 to 10 on the X-axis.
 ```python
@@ -300,7 +300,7 @@ The `histogram` function accepts the following optional arguments:
 
 `width=900` and `height=600` control the dimensions of the chart.
 
-`template="plotly_dark"` changes the visual theme.
+`template="plotly_dark"` applies a visual theme. Available options include `'ggplot2'`, `'seaborn'`, `'simple_white'`, `'plotly'`, `'plotly_white'`, `'plotly_dark'`, `'presentation'`, `'xgridoff'`, `'ygridoff'`, `'gridon'`, and `'none'`.
 
 
 Use the following instruction to create intervals with a width of one week:
@@ -385,7 +385,7 @@ The grouped histogram accepts the same arguments used in the previous histogram.
 
 `opacity=0.7` makes overlapping bars partially transparent.
 
-`template="plotly_dark"` changes the visual theme.
+`template="plotly_dark"` applies a visual theme. Available options include `'ggplot2'`, `'seaborn'`, `'simple_white'`, `'plotly'`, `'plotly_white'`, `'plotly_dark'`, `'presentation'`, `'xgridoff'`, `'ygridoff'`, `'gridon'`, and `'none'`.
 
 ---
 
