@@ -112,7 +112,7 @@ The `bar` function accepts the following optional arguments:
 
 `color="show_title"` assigns a different color to each title.
 
-`color_discrete_sequence=px.colors.qualitative.Pastel` changes the color palette.
+`color_discrete_sequence=px.colors.qualitative.Pastel` changes the color palette used for the category lines. Other options include `Plotly`, `D3`, `Bold`, `Set1`, `Set2`, `Set3`, `Dark24`, `Light24`, `Safe`, and `Vivid`.
 
 `text="weekly_views"` displays the value on each bar.
 
@@ -205,7 +205,7 @@ The `bar` function accepts the following optional arguments:
 
 `barmode="group"` places the category bars next to each other for every ranking position.
 
-`color_discrete_sequence=px.colors.qualitative.Pastel` changes the color palette.
+`color_discrete_sequence=px.colors.qualitative.Pastel` changes the color palette used for the category lines. Other options include `Plotly`, `D3`, `Bold`, `Set1`, `Set2`, `Set3`, `Dark24`, `Light24`, `Safe`, and `Vivid`.
 
 `opacity=0.8` controls the transparency of the bars.
 
@@ -371,7 +371,7 @@ The grouped histogram accepts the same arguments used in the previous histogram.
 
 `color="category_name"` assigns a different color to each category.
 
-`color_discrete_sequence=px.colors.qualitative.Pastel` changes the color palette.
+`color_discrete_sequence=px.colors.qualitative.Pastel` changes the color palette used for the category lines. Other options include `Plotly`, `D3`, `Bold`, `Set1`, `Set2`, `Set3`, `Dark24`, `Light24`, `Safe`, and `Vivid`.
 
 `barmode="stack"` places the category bars on top of each other.
 
